@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stock Market Analysis</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#07111f;color:#eef5ff}
+header{padding:22px 26px;border-bottom:1px solid #26364c;background:#0b1728}
+h1{margin:0;font-size:25px}
+.subtitle{margin-top:6px;color:#9fb0c7;font-size:13px}
+.app{display:flex;min-height:calc(100vh - 84px)}
+aside{width:235px;padding:22px 16px;border-right:1px solid #26364c;background:#0a1423}
+button{width:100%;padding:14px;margin-bottom:12px;border:1px solid #34506e;border-radius:10px;background:#13263d;color:white;font-size:15px;font-weight:700;text-align:left;cursor:pointer}
+button:hover{background:#193451}
+button.active{background:#17345a;border-color:#6da8ff}
+main{flex:1;padding:26px}
+.card{max-width:950px;background:#0d1b2d;border:1px solid #26364c;border-radius:14px;padding:24px}
+h2{margin-top:0}
+.muted{color:#9fb0c7}
+.status{margin-top:20px;padding:15px;border-radius:10px;background:#101f33;border:1px solid #26364c}
+.badge{display:inline-block;padding:5px 9px;border-radius:20px;background:#142b47;color:#b9d5ff;font-size:12px;margin-bottom:12px}
+@media(max-width:650px){
+ .app{display:block}
+ aside{width:100%;border-right:0;border-bottom:1px solid #26364c}
+ main{padding:16px}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Stock Market Analysis</h1>
+<div class="subtitle">Nifty 500 scanning & market leadership dashboard</div>
+</header>
+
+<div class="app">
+<aside>
+<button id="ma44" class="active">44 MA</button>
+<button id="leader">Market Leader</button>
+</aside>
+
+<main>
+<section class="card">
+<div class="badge" id="badge">Daily Scanner</div>
+<h2 id="heading">44 MA Scanner</h2>
+<p id="description" class="muted">
+Scan setup for Nifty 500 stocks around a rising 44 moving average with a green daily candle.
+</p>
+<div id="status" class="status">
+Scanner data/backend connection will be added in the next stage.
+</div>
+</section>
+</main>
+</div>
+
+<script>
+const ma44=document.getElementById('ma44');
+const leader=document.getElementById('leader');
+const heading=document.getElementById('heading');
+const description=document.getElementById('description');
+const status=document.getElementById('status');
+const badge=document.getElementById('badge');
+
+ma44.onclick=()=>{
+ ma44.classList.add('active'); leader.classList.remove('active');
+ badge.textContent='Daily Scanner';
+ heading.textContent='44 MA Scanner';
+ description.textContent='Scan setup for Nifty 500 stocks around a rising 44 moving average with a green daily candle.';
+ status.textContent='Scanner data/backend connection will be added in the next stage.';
+};
+
+leader.onclick=()=>{
+ leader.classList.add('active'); ma44.classList.remove('active');
+ badge.textContent='Back-test Lab';
+ heading.textContent='Market Leader';
+ description.textContent='We will add market-leader parameters one at a time and back-test each parameter before keeping it.';
+ status.textContent='No Market Leader parameter is active yet. Parameter 1 will be added next.';
+};
+</script>
+</body>
+</html>
