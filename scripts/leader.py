@@ -138,7 +138,7 @@ def main():
         raise RuntimeError(f"Price scan incomplete: {len(prices)}/{len(universe)}; {errors[:3]}")
     as_of = max(item["date"] for item in prices)
     candidates = [x for x in prices if x["date"] == as_of and "breakout_date" in x]
-    with open(os.path.join(ROOT, "leader-reviews.json"), encoding="utf-8") as source:
+    with open(os.path.join(os.path.dirname(__file__), "leader-reviews.json"), encoding="utf-8") as source:
         reviews = json.load(source)
     screened, fundamentals_errors = [], []
     for item in candidates:
