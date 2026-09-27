@@ -1,1 +1,34 @@
-{}
+{
+  "GESHIP": {
+    "macro": {
+      "confirmed": true,
+      "summary": "Company ke Aug 2026 call ke mutabik oil-route disruption se tanker freight rates Q1 FY27 mein record high par the; is tailwind ki avadhi anishchit hai.",
+      "url": "https://greatship.com/upload/investors/transcripts/1Q27_Concall_Transcript_4Aug26.pdf",
+      "reviewed_on": "2026-09-27",
+      "valid_until": "2026-10-15"
+    },
+    "sector_leader": {
+      "confirmed": true,
+      "summary": "Company apne aap ko India ka largest shipping aur oilfield services provider batati hai; shipping segment mein 40 ships dikhati hai.",
+      "url": "https://greatship.com/business",
+      "reviewed_on": "2026-09-27",
+      "valid_until": "2027-03-31"
+    }
+  },
+  "PINELABS": {
+    "macro": {
+      "confirmed": true,
+      "summary": "PIB ke anusaar FY2025-26 mein UPI transactions 24,162 crore se zyada rahe; digital-payments adoption merchant platform ke liye addressable-market tailwind hai, revenue guarantee nahi.",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2302657&lang=1&reg=3",
+      "reviewed_on": "2026-09-27",
+      "valid_until": "2027-03-31"
+    },
+    "sector_leader": {
+      "confirmed": false,
+      "summary": "Pine Labs prepaid segment mein largest non-bank PPI holder hone ka dawa karti hai; poore financial-services/fintech sector ki leadership isse confirm nahi hoti.",
+      "url": "https://www.pinelabs.com/prepaid-solutions",
+      "reviewed_on": "2026-09-27",
+      "valid_until": "2026-12-31"
+    }
+  }
+}
