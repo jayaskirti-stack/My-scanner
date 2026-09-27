@@ -40,7 +40,7 @@ leader.onclick=async()=>{
   const response=await fetch('./leader-results.json?refresh='+Date.now(),{cache:'no-store'});
   if(!response.ok)throw new Error('Market Leader data abhi publish nahi hua (HTTP '+response.status+').');
   const data=await response.json();if(!data.as_of||!Array.isArray(data.matches))throw new Error('Data format galat hai.');
-  const confirmed=data.matches.filter(x=>x.fully_reviewed).length;
+  const confirmed=data.matches.filter(x=>x.macro?.confirmed===true&&x.sector_leader?.confirmed===true&&x.macro?.valid_until>=data.as_of&&x.sector_leader?.valid_until>=data.as_of).length;
   status.textContent=`Daily candle: ${data.as_of} · ${data.price_scanned_count}/${data.universe_count} price histories · ${data.breakout_count} recent breakouts · ${data.matches.length} financial matches · ${confirmed} macro aur sector evidence ke saath reviewed`;
   if(data.fundamental_errors?.length){const p=document.createElement('p');p.className='muted note';p.textContent=`${data.fundamental_errors.length} company pages verify nahi hue; ye stocks list se exclude hain.`;results.append(p)}
   if(!data.matches.length){const p=document.createElement('p');p.textContent='Is snapshot par koi verified breakout + financial match nahi mila.';results.append(p);return}
@@ -49,7 +49,8 @@ leader.onclick=async()=>{
   for(const item of data.matches){const row=document.createElement('tr');const first=cell(row,'');link(first,item.screener_url,item.symbol);cell(row,item.breakout_date);cell(row,money.format(item.close));cell(row,money.format(item.market_cap_cr));cell(row,item.debt_equity.toFixed(3));
    const profit=cell(row,`${money.format(item.profit_2025_cr)} → ${money.format(item.profit_2026_cr)} Cr (${item.profit_growth_pct}%)`);
    profit.title='Screener.in annual Profit & Loss: Net Profit';
-   const review=cell(row,item.fully_reviewed?'Dono verified':item.macro?.url?'Sector leader unconfirmed':'Review pending');review.title='Macro support aur sector leadership ko dated source se manually verify kiya jata hai.';
+   const both=item.macro?.confirmed===true&&item.sector_leader?.confirmed===true&&item.macro?.valid_until>=data.as_of&&item.sector_leader?.valid_until>=data.as_of;
+   const review=cell(row,both?'Dono verified':item.macro?.url?'Sector leader unconfirmed':'Review pending');review.title='Macro support aur sector leadership ko dated source se manually verify kiya jata hai.';
    table.append(row);
    if(item.macro?.url||item.sector_leader?.url){const detail=document.createElement('tr');const td=document.createElement('td');td.colSpan=7;td.className='note';
     if(item.macro?.url){td.append(`Macro (${item.macro.reviewed_on}; valid till ${item.macro.valid_until}): ${item.macro.summary} · `);link(td,item.macro.url,'Macro source')}
