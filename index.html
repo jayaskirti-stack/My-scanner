@@ -15,7 +15,8 @@
 <script>
 const ma44=document.getElementById('ma44'),leader=document.getElementById('leader'),heading=document.getElementById('heading'),description=document.getElementById('description'),status=document.getElementById('status'),badge=document.getElementById('badge'),results=document.getElementById('results');
 const money=new Intl.NumberFormat('en-IN',{minimumFractionDigits:2,maximumFractionDigits:2});
-function cell(row,value){const td=document.createElement('td');td.textContent=value;row.append(td)}
+function cell(row,value){const td=document.createElement('td');td.textContent=value;row.append(td);return td}
+function link(parent,url,label){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label;parent.append(a)}
 ma44.onclick=async()=>{
  ma44.classList.add('active');leader.classList.remove('active');badge.textContent='Daily Scanner';heading.textContent='44 MA Scanner';description.textContent='Rising 44 SMA, green daily candle, close above SMA and within 1%.';results.replaceChildren();status.textContent='Latest daily scan load ho raha hai…';ma44.disabled=true;
  try{
@@ -31,6 +32,31 @@ ma44.onclick=async()=>{
  }catch(error){status.textContent='Scanner load nahi hua: '+error.message+' Thodi der baad phir try karein.'}
  finally{ma44.disabled=false}
 };
-leader.onclick=()=>{leader.classList.add('active');ma44.classList.remove('active');badge.textContent='Back-test Lab';heading.textContent='Market Leader';description.textContent='Market-leader parameters and back-test will be added here.';status.textContent='Abhi koi Market Leader parameter active nahi hai.';results.replaceChildren()};
+leader.onclick=async()=>{
+ leader.classList.add('active');ma44.classList.remove('active');badge.textContent='Nifty 500 · Daily';heading.textContent='Market Leader Scanner';
+ description.textContent='Pichhle 20 trading days mein 1-year closing high breakout · market cap ₹5,000–25,000 Cr · D/E < 0.5 · FY2026 net profit growth >25% vs FY2025. 44 MA condition nahi hai.';
+ results.replaceChildren();status.textContent='Latest market leader shortlist load ho rahi hai…';leader.disabled=true;
+ try{
+  const response=await fetch('./leader-results.json?refresh='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw new Error('Market Leader data abhi publish nahi hua (HTTP '+response.status+').');
+  const data=await response.json();if(!data.as_of||!Array.isArray(data.matches))throw new Error('Data format galat hai.');
+  const confirmed=data.matches.filter(x=>x.fully_reviewed).length;
+  status.textContent=`Daily candle: ${data.as_of} · ${data.price_scanned_count}/${data.universe_count} price histories · ${data.breakout_count} recent breakouts · ${data.matches.length} financial matches · ${confirmed} macro aur sector evidence ke saath reviewed`;
+  if(data.fundamental_errors?.length){const p=document.createElement('p');p.className='muted note';p.textContent=`${data.fundamental_errors.length} company pages verify nahi hue; ye stocks list se exclude hain.`;results.append(p)}
+  if(!data.matches.length){const p=document.createElement('p');p.textContent='Is snapshot par koi verified breakout + financial match nahi mila.';results.append(p);return}
+  const wrap=document.createElement('div');wrap.className='table-wrap';const table=document.createElement('table');const head=document.createElement('tr');
+  ['Symbol','Breakout','Close (₹)','Market cap (₹ Cr)','D/E','FY25→FY26 profit','Macro / sector'].forEach(x=>{const th=document.createElement('th');th.textContent=x;head.append(th)});table.append(head);
+  for(const item of data.matches){const row=document.createElement('tr');const first=cell(row,'');link(first,item.screener_url,item.symbol);cell(row,item.breakout_date);cell(row,money.format(item.close));cell(row,money.format(item.market_cap_cr));cell(row,item.debt_equity.toFixed(3));
+   const profit=cell(row,`${money.format(item.profit_2025_cr)} → ${money.format(item.profit_2026_cr)} Cr (${item.profit_growth_pct}%)`);
+   profit.title='Screener.in annual Profit & Loss: Net Profit';
+   const review=cell(row,item.fully_reviewed?'Sources checked':'Review pending');review.title='Macro support aur sector leadership ko dated source se manually verify kiya jata hai.';
+   table.append(row);
+   if(item.fully_reviewed){const detail=document.createElement('tr');const td=document.createElement('td');td.colSpan=7;
+    td.textContent=`Macro: ${item.macro.summary} · Sector: ${item.sector_leader.summary} · `;link(td,item.macro.url,'Macro source');td.append(' · ');link(td,item.sector_leader.url,'Leadership source');detail.append(td);table.append(detail)}
+  }wrap.append(table);results.append(wrap);
+  const note=document.createElement('p');note.className='muted note';note.textContent='Breakout: pichhle 20 sessions mein close ne us din ke pichhle 252 closes ka high cross kiya aur latest close us level se neeche nahi hai. Prices adjusted hain. D/E = FY2026 consolidated borrowings ÷ (equity capital + reserves); jahan consolidated data nahi hai wahan standalone. Macro aur sector leadership ka “Review pending” matlab ye conditions abhi confirm nahi hui hain. Financial data Screener.in se liya gaya hai; market cap snapshot badal sakta hai.';results.append(note);
+ }catch(error){status.textContent='Market Leader load nahi hua: '+error.message+' Thodi der baad phir try karein.'}
+ finally{leader.disabled=false}
+};
 </script>
 </body></html>
