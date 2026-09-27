@@ -34,7 +34,7 @@ ma44.onclick=async()=>{
 };
 leader.onclick=async()=>{
  leader.classList.add('active');ma44.classList.remove('active');badge.textContent='Nifty 500 · Daily';heading.textContent='Market Leader Scanner';
- description.textContent='Pichhle 20 trading days mein 1-year closing high breakout · market cap ₹5,000–25,000 Cr · D/E < 0.5 · FY2026 net profit growth >25% vs FY2025. 44 MA condition nahi hai.';
+ description.textContent='Pichhle 20 trading days mein previous 60-session closing high breakout · market cap ₹5,000–25,000 Cr · D/E < 0.5 · FY2026 net profit growth >25% vs FY2025. 44 MA condition nahi hai.';
  results.replaceChildren();status.textContent='Latest market leader shortlist load ho rahi hai…';leader.disabled=true;
  try{
   const response=await fetch('./leader-results.json?refresh='+Date.now(),{cache:'no-store'});
@@ -54,7 +54,7 @@ leader.onclick=async()=>{
    if(item.fully_reviewed){const detail=document.createElement('tr');const td=document.createElement('td');td.colSpan=7;
     td.textContent=`Macro: ${item.macro.summary} · Sector: ${item.sector_leader.summary} · `;link(td,item.macro.url,'Macro source');td.append(' · ');link(td,item.sector_leader.url,'Leadership source');detail.append(td);table.append(detail)}
   }wrap.append(table);results.append(wrap);
-  const note=document.createElement('p');note.className='muted note';note.textContent='Breakout: pichhle 20 sessions mein close ne us din ke pichhle 252 closes ka high cross kiya aur latest close us level se neeche nahi hai. Prices adjusted hain. D/E = FY2026 consolidated borrowings ÷ (equity capital + reserves); jahan consolidated data nahi hai wahan standalone. Macro aur sector leadership ka “Review pending” matlab ye conditions abhi confirm nahi hui hain. Financial data Screener.in se liya gaya hai; market cap snapshot badal sakta hai.';results.append(note);
+  const note=document.createElement('p');note.className='muted note';note.textContent='Breakout: pichhle 20 sessions mein close ne us din ke pichhle 60 closes ka high cross kiya aur latest close us level se neeche nahi hai. Prices adjusted hain. D/E = FY2026 consolidated borrowings ÷ (equity capital + reserves); jahan consolidated data nahi hai wahan standalone. Macro aur sector leadership ka “Review pending” matlab ye conditions abhi confirm nahi hui hain. Financial data Screener.in se liya gaya hai; market cap snapshot badal sakta hai.';results.append(note);
  }catch(error){status.textContent='Market Leader load nahi hua: '+error.message+' Thodi der baad phir try karein.'}
  finally{leader.disabled=false}
 };
