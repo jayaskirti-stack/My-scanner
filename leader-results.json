@@ -1,14 +1,51 @@
 {
   "as_of": "2026-09-25",
-  "generated_at": "2026-09-27T10:56:07.067086+00:00",
+  "generated_at": "2026-09-27T11:06:45.211967+00:00",
   "universe_count": 500,
-  "price_scanned_count": 485,
-  "breakout_count": 27,
-  "fundamental_checked_count": 24,
+  "price_scanned_count": 500,
+  "breakout_count": 40,
+  "fundamental_checked_count": 35,
   "fundamental_errors": [
     "CASTROLIND: missing Net Profit for Mar 2025",
+    "LICHSGFIN: missing Borrowings for Mar 2026",
+    "MEESHO: invalid market cap, equity or FY2025 profit",
     "RBLBANK: missing Borrowings for Mar 2026",
     "WOCKPHARMA: invalid market cap, equity or FY2025 profit"
   ],
-  "matches": []
+  "matches": [
+    {
+      "symbol": "PINELABS",
+      "close": 176.57,
+      "date": "2026-09-25",
+      "breakout_date": "2026-09-09",
+      "prior_high": 169.93,
+      "market_cap_cr": 20389.0,
+      "debt_equity": 0.058,
+      "profit_2025_cr": 28.0,
+      "profit_2026_cr": 150.0,
+      "profit_growth_pct": 435.7,
+      "industry": "Financial Services",
+      "screener_url": "https://www.screener.in/company/PINELABS/",
+      "macro": {},
+      "sector_leader": {},
+      "fully_reviewed": false
+    },
+    {
+      "symbol": "GESHIP",
+      "close": 1497.2,
+      "date": "2026-09-25",
+      "breakout_date": "2026-09-25",
+      "prior_high": 1485.0,
+      "market_cap_cr": 21375.0,
+      "debt_equity": 0.064,
+      "profit_2025_cr": 2344.0,
+      "profit_2026_cr": 2943.0,
+      "profit_growth_pct": 25.6,
+      "industry": "Services",
+      "screener_url": "https://www.screener.in/company/GESHIP/consolidated/",
+      "macro": {},
+      "sector_leader": {},
+      "fully_reviewed": false
+    }
+  ]
 }
