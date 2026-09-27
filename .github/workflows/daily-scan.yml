@@ -5,10 +5,13 @@ on:
     paths:
       - scripts/scan.py
       - scripts/leader.py
-      - leader-reviews.json
+      - scripts/leader-reviews.json
       - .github/workflows/daily-scan.yml
   schedule:
     - cron: '30 11 * * 1-5'
+concurrency:
+  group: daily-scanner-publisher
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -29,7 +32,11 @@ jobs:
           git add scan-results.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Nifty 500 daily scan"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+            done
           fi
       - run: python scripts/leader.py
       - name: Publish market leader shortlist
@@ -39,5 +46,9 @@ jobs:
           git add leader-results.json
           if ! git diff --cached --quiet; then
             git commit -m "Update market leader shortlist"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+            done
           fi
