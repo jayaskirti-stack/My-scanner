@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-09-25",
+  "generated_at": "2026-09-27T10:29:35.417639+00:00",
+  "universe_count": 501,
+  "scanned_count": 500,
+  "latest_candle_count": 500,
+  "failed_count": 1,
+  "matches": [
+    {
+      "symbol": "ECLERX",
+      "close": 1898.8,
+      "ma44": 1894.62,
+      "distance_pct": 0.22,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "PETRONET",
+      "close": 286.5,
+      "ma44": 285.87,
+      "distance_pct": 0.22,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "close": 3547.8,
+      "ma44": 3538.97,
+      "distance_pct": 0.25,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "PPLPHARMA",
+      "close": 210.31,
+      "ma44": 209.69,
+      "distance_pct": 0.3,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "close": 484.55,
+      "ma44": 483.07,
+      "distance_pct": 0.31,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "ENRIN",
+      "close": 3313.0,
+      "ma44": 3293.55,
+      "distance_pct": 0.59,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "JMFINANCIL",
+      "close": 127.68,
+      "ma44": 126.93,
+      "distance_pct": 0.59,
+      "date": "2026-09-25"
+    },
+    {
+      "symbol": "RADICO",
+      "close": 4557.1,
+      "ma44": 4513.72,
+      "distance_pct": 0.96,
+      "date": "2026-09-25"
+    }
+  ]
+}
