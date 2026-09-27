@@ -10,7 +10,7 @@ import os
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from urllib.parse import quote
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
@@ -154,9 +154,12 @@ def main():
             for evidence in (macro, leader):
                 if evidence.get("url") and not evidence["url"].startswith("https://"):
                     raise ValueError("Review evidence must use HTTPS")
+            def confirmed(evidence):
+                return bool(evidence.get("confirmed") is True and evidence.get("url") and evidence.get("summary")
+                            and evidence.get("valid_until", "") >= date.today().isoformat())
             screened.append({**item, **data, "industry": universe[item["symbol"]], "screener_url": url,
                              "macro": macro, "sector_leader": leader,
-                             "fully_reviewed": bool(macro.get("url") and macro.get("summary") and leader.get("url") and leader.get("summary"))})
+                             "fully_reviewed": confirmed(macro) and confirmed(leader)})
     if candidates and len(fundamentals_errors) > max(3, len(candidates) // 4):
         raise RuntimeError(f"Screener fetch incomplete: {len(fundamentals_errors)}/{len(candidates)}; {fundamentals_errors[:3]}")
     payload = {"as_of": as_of, "generated_at": datetime.now(timezone.utc).isoformat(), "universe_count": len(universe),
