@@ -49,10 +49,12 @@ leader.onclick=async()=>{
   for(const item of data.matches){const row=document.createElement('tr');const first=cell(row,'');link(first,item.screener_url,item.symbol);cell(row,item.breakout_date);cell(row,money.format(item.close));cell(row,money.format(item.market_cap_cr));cell(row,item.debt_equity.toFixed(3));
    const profit=cell(row,`${money.format(item.profit_2025_cr)} → ${money.format(item.profit_2026_cr)} Cr (${item.profit_growth_pct}%)`);
    profit.title='Screener.in annual Profit & Loss: Net Profit';
-   const review=cell(row,item.fully_reviewed?'Sources checked':'Review pending');review.title='Macro support aur sector leadership ko dated source se manually verify kiya jata hai.';
+   const review=cell(row,item.fully_reviewed?'Dono verified':item.macro?.url?'Sector leader unconfirmed':'Review pending');review.title='Macro support aur sector leadership ko dated source se manually verify kiya jata hai.';
    table.append(row);
-   if(item.fully_reviewed){const detail=document.createElement('tr');const td=document.createElement('td');td.colSpan=7;
-    td.textContent=`Macro: ${item.macro.summary} · Sector: ${item.sector_leader.summary} · `;link(td,item.macro.url,'Macro source');td.append(' · ');link(td,item.sector_leader.url,'Leadership source');detail.append(td);table.append(detail)}
+   if(item.macro?.url||item.sector_leader?.url){const detail=document.createElement('tr');const td=document.createElement('td');td.colSpan=7;td.className='note';
+    if(item.macro?.url){td.append(`Macro (${item.macro.reviewed_on}; valid till ${item.macro.valid_until}): ${item.macro.summary} · `);link(td,item.macro.url,'Macro source')}
+    if(item.sector_leader?.url){td.append(` · Sector (${item.sector_leader.confirmed?'verified':'unconfirmed'}): ${item.sector_leader.summary} · `);link(td,item.sector_leader.url,'Sector source')}
+    detail.append(td);table.append(detail)}
   }wrap.append(table);results.append(wrap);
   const note=document.createElement('p');note.className='muted note';note.textContent='Breakout: pichhle 20 sessions mein close ne us din ke pichhle 60 closes ka high cross kiya aur latest close us level se neeche nahi hai. Prices adjusted hain. D/E = FY2026 consolidated borrowings ÷ (equity capital + reserves); jahan consolidated data nahi hai wahan standalone. Macro aur sector leadership ka “Review pending” matlab ye conditions abhi confirm nahi hui hain. Financial data Screener.in se liya gaya hai; market cap snapshot badal sakta hai.';results.append(note);
  }catch(error){status.textContent='Market Leader load nahi hua: '+error.message+' Thodi der baad phir try karein.'}
