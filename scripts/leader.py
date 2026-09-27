@@ -36,15 +36,15 @@ def constituents():
 def breakout(symbol):
     for attempt in range(2):
         try:
-            bars = yf.Ticker(symbol + ".NS").history(period="18mo", interval="1d", auto_adjust=True, timeout=30).dropna(subset=["Close"])
-            # Each of the last 20 sessions is compared with the preceding 252 closes.
-            if len(bars) < 273:
-                raise ValueError("fewer than 273 daily closes")
+            bars = yf.Ticker(symbol + ".NS").history(period="6mo", interval="1d", auto_adjust=True, timeout=30).dropna(subset=["Close"])
+            # Each of the last 20 sessions is compared with the preceding 60 closes.
+            if len(bars) < 81:
+                raise ValueError("fewer than 81 daily closes")
             closes = bars["Close"].astype(float).tolist()
             if any(not abs(x) < 1e9 or x <= 0 for x in closes):
                 raise ValueError("invalid price history")
             for index in range(len(closes) - 20, len(closes)):
-                high = max(closes[index - 252:index])
+                high = max(closes[index - 60:index])
                 if closes[index] > high and closes[index - 1] <= high and closes[-1] >= high:
                     return {"symbol": symbol, "close": round(closes[-1], 2), "date": bars.index[-1].date().isoformat(), "breakout_date": bars.index[index].date().isoformat(), "prior_high": round(high, 2)}, None
             return {"symbol": symbol, "date": bars.index[-1].date().isoformat()}, None
