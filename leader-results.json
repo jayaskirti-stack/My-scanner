@@ -1,6 +1,6 @@
 {
   "as_of": "2026-09-25",
-  "generated_at": "2026-09-27T11:15:51.468285+00:00",
+  "generated_at": "2026-09-27T11:23:04.801873+00:00",
   "universe_count": 500,
   "price_scanned_count": 500,
   "breakout_count": 40,
@@ -13,35 +13,6 @@
     "WOCKPHARMA: invalid market cap, equity or FY2025 profit"
   ],
   "matches": [
-    {
-      "symbol": "PINELABS",
-      "close": 176.57,
-      "date": "2026-09-25",
-      "breakout_date": "2026-09-09",
-      "prior_high": 169.93,
-      "market_cap_cr": 20389.0,
-      "debt_equity": 0.058,
-      "profit_2025_cr": 28.0,
-      "profit_2026_cr": 150.0,
-      "profit_growth_pct": 435.7,
-      "industry": "Financial Services",
-      "screener_url": "https://www.screener.in/company/PINELABS/",
-      "macro": {
-        "confirmed": true,
-        "summary": "PIB ke anusaar FY2025-26 mein UPI transactions 24,162 crore se zyada rahe; digital-payments adoption merchant platform ke liye addressable-market tailwind hai, revenue guarantee nahi.",
-        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2302657&lang=1&reg=3",
-        "reviewed_on": "2026-09-27",
-        "valid_until": "2027-03-31"
-      },
-      "sector_leader": {
-        "confirmed": false,
-        "summary": "Pine Labs prepaid segment mein largest non-bank PPI holder hone ka dawa karti hai; poore financial-services/fintech sector ki leadership isse confirm nahi hoti.",
-        "url": "https://www.pinelabs.com/prepaid-solutions",
-        "reviewed_on": "2026-09-27",
-        "valid_until": "2026-12-31"
-      },
-      "fully_reviewed": true
-    },
     {
       "symbol": "GESHIP",
       "close": 1497.2,
@@ -70,6 +41,35 @@
         "valid_until": "2027-03-31"
       },
       "fully_reviewed": true
+    },
+    {
+      "symbol": "PINELABS",
+      "close": 176.57,
+      "date": "2026-09-25",
+      "breakout_date": "2026-09-09",
+      "prior_high": 169.93,
+      "market_cap_cr": 20389.0,
+      "debt_equity": 0.058,
+      "profit_2025_cr": 28.0,
+      "profit_2026_cr": 150.0,
+      "profit_growth_pct": 435.7,
+      "industry": "Financial Services",
+      "screener_url": "https://www.screener.in/company/PINELABS/",
+      "macro": {
+        "confirmed": true,
+        "summary": "PIB ke anusaar FY2025-26 mein UPI transactions 24,162 crore se zyada rahe; digital-payments adoption merchant platform ke liye addressable-market tailwind hai, revenue guarantee nahi.",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2302657&lang=1&reg=3",
+        "reviewed_on": "2026-09-27",
+        "valid_until": "2027-03-31"
+      },
+      "sector_leader": {
+        "confirmed": false,
+        "summary": "Pine Labs prepaid segment mein largest non-bank PPI holder hone ka dawa karti hai; poore financial-services/fintech sector ki leadership isse confirm nahi hoti.",
+        "url": "https://www.pinelabs.com/prepaid-solutions",
+        "reviewed_on": "2026-09-27",
+        "valid_until": "2026-12-31"
+      },
+      "fully_reviewed": false
     }
   ]
 }
