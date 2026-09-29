@@ -1,9 +1,24 @@
 {
-  "as_of": "2026-09-28",
-  "generated_at": "2026-09-28T11:41:57.634801+00:00",
+  "as_of": "2026-09-29",
+  "generated_at": "2026-09-29T11:39:21.043900+00:00",
   "universe_count": 501,
   "scanned_count": 500,
   "latest_candle_count": 500,
   "failed_count": 1,
-  "matches": []
+  "matches": [
+    {
+      "symbol": "AJANTPHARM",
+      "close": 3557.5,
+      "ma44": 3546.79,
+      "distance_pct": 0.3,
+      "date": "2026-09-29"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "close": 188.0,
+      "ma44": 186.44,
+      "distance_pct": 0.84,
+      "date": "2026-09-29"
+    }
+  ]
 }
