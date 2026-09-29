@@ -1,13 +1,12 @@
 {
-  "as_of": "2026-09-28",
-  "generated_at": "2026-09-28T11:44:28.377561+00:00",
+  "as_of": "2026-09-29",
+  "generated_at": "2026-09-29T11:41:33.714571+00:00",
   "universe_count": 500,
   "price_scanned_count": 500,
-  "breakout_count": 34,
-  "fundamental_checked_count": 29,
+  "breakout_count": 31,
+  "fundamental_checked_count": 27,
   "fundamental_errors": [
     "CASTROLIND: missing Net Profit for Mar 2025",
-    "LICHSGFIN: missing Borrowings for Mar 2026",
     "MEESHO: invalid market cap, equity or FY2025 profit",
     "RBLBANK: missing Borrowings for Mar 2026",
     "WOCKPHARMA: invalid market cap, equity or FY2025 profit"
@@ -15,11 +14,11 @@
   "matches": [
     {
       "symbol": "GESHIP",
-      "close": 1533.4,
-      "date": "2026-09-28",
+      "close": 1537.8,
+      "date": "2026-09-29",
       "breakout_date": "2026-09-25",
       "prior_high": 1485.0,
-      "market_cap_cr": 21885.0,
+      "market_cap_cr": 21947.0,
       "debt_equity": 0.064,
       "profit_2025_cr": 2344.0,
       "profit_2026_cr": 2943.0,
@@ -44,11 +43,11 @@
     },
     {
       "symbol": "PINELABS",
-      "close": 173.02,
-      "date": "2026-09-28",
+      "close": 171.55,
+      "date": "2026-09-29",
       "breakout_date": "2026-09-09",
       "prior_high": 169.93,
-      "market_cap_cr": 20000.0,
+      "market_cap_cr": 19816.0,
       "debt_equity": 0.058,
       "profit_2025_cr": 28.0,
       "profit_2026_cr": 150.0,
@@ -69,6 +68,23 @@
         "reviewed_on": "2026-09-27",
         "valid_until": "2026-12-31"
       },
+      "fully_reviewed": false
+    },
+    {
+      "symbol": "HBLENGINE",
+      "close": 808.3,
+      "date": "2026-09-29",
+      "breakout_date": "2026-09-29",
+      "prior_high": 806.0,
+      "market_cap_cr": 22397.0,
+      "debt_equity": 0.03,
+      "profit_2025_cr": 276.0,
+      "profit_2026_cr": 814.0,
+      "profit_growth_pct": 194.9,
+      "industry": "Capital Goods",
+      "screener_url": "https://www.screener.in/company/HBLENGINE/consolidated/",
+      "macro": {},
+      "sector_leader": {},
       "fully_reviewed": false
     }
   ]
