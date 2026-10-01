@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-09-30",
-  "generated_at": "2026-09-30T11:42:15.995085+00:00",
+  "as_of": "2026-10-01",
+  "generated_at": "2026-10-01T11:42:43.842541+00:00",
   "universe_count": 500,
   "price_scanned_count": 495,
-  "breakout_count": 34,
-  "fundamental_checked_count": 29,
+  "breakout_count": 24,
+  "fundamental_checked_count": 19,
   "fundamental_errors": [
     "CASTROLIND: missing Net Profit for Mar 2025",
     "MEESHO: invalid market cap, equity or FY2025 profit",
@@ -15,11 +15,11 @@
   "matches": [
     {
       "symbol": "GESHIP",
-      "close": 1560.0,
-      "date": "2026-09-30",
+      "close": 1530.6,
+      "date": "2026-10-01",
       "breakout_date": "2026-09-25",
       "prior_high": 1485.0,
-      "market_cap_cr": 22303.0,
+      "market_cap_cr": 21835.0,
       "debt_equity": 0.064,
       "profit_2025_cr": 2344.0,
       "profit_2026_cr": 2943.0,
@@ -41,69 +41,6 @@
         "valid_until": "2027-03-31"
       },
       "fully_reviewed": true
-    },
-    {
-      "symbol": "PINELABS",
-      "close": 171.79,
-      "date": "2026-09-30",
-      "breakout_date": "2026-09-09",
-      "prior_high": 169.93,
-      "market_cap_cr": 19839.0,
-      "debt_equity": 0.058,
-      "profit_2025_cr": 28.0,
-      "profit_2026_cr": 150.0,
-      "profit_growth_pct": 435.7,
-      "industry": "Financial Services",
-      "screener_url": "https://www.screener.in/company/PINELABS/",
-      "macro": {
-        "confirmed": true,
-        "summary": "PIB ke anusaar FY2025-26 mein UPI transactions 24,162 crore se zyada rahe; digital-payments adoption merchant platform ke liye addressable-market tailwind hai, revenue guarantee nahi.",
-        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2302657&lang=1&reg=3",
-        "reviewed_on": "2026-09-27",
-        "valid_until": "2027-03-31"
-      },
-      "sector_leader": {
-        "confirmed": false,
-        "summary": "Pine Labs prepaid segment mein largest non-bank PPI holder hone ka dawa karti hai; poore financial-services/fintech sector ki leadership isse confirm nahi hoti.",
-        "url": "https://www.pinelabs.com/prepaid-solutions",
-        "reviewed_on": "2026-09-27",
-        "valid_until": "2026-12-31"
-      },
-      "fully_reviewed": false
-    },
-    {
-      "symbol": "AZAD",
-      "close": 2963.2,
-      "date": "2026-09-30",
-      "breakout_date": "2026-09-29",
-      "prior_high": 2899.9,
-      "market_cap_cr": 19147.0,
-      "debt_equity": 0.31,
-      "profit_2025_cr": 87.0,
-      "profit_2026_cr": 134.0,
-      "profit_growth_pct": 54.0,
-      "industry": "Capital Goods",
-      "screener_url": "https://www.screener.in/company/AZAD/consolidated/",
-      "macro": {},
-      "sector_leader": {},
-      "fully_reviewed": false
-    },
-    {
-      "symbol": "AETHER",
-      "close": 1699.3,
-      "date": "2026-09-30",
-      "breakout_date": "2026-09-25",
-      "prior_high": 1696.8,
-      "market_cap_cr": 22587.0,
-      "debt_equity": 0.186,
-      "profit_2025_cr": 158.0,
-      "profit_2026_cr": 219.0,
-      "profit_growth_pct": 38.6,
-      "industry": "Chemicals",
-      "screener_url": "https://www.screener.in/company/AETHER/consolidated/",
-      "macro": {},
-      "sector_leader": {},
-      "fully_reviewed": false
     }
   ]
 }
