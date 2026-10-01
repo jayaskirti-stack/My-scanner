@@ -1,38 +1,24 @@
 {
-  "as_of": "2026-09-30",
-  "generated_at": "2026-09-30T11:40:02.388682+00:00",
+  "as_of": "2026-10-01",
+  "generated_at": "2026-10-01T11:40:35.227196+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "JINDALSTEL",
-      "close": 1134.9,
-      "ma44": 1132.5,
-      "distance_pct": 0.21,
-      "date": "2026-09-30"
+      "symbol": "BEML",
+      "close": 1962.3,
+      "ma44": 1962.06,
+      "distance_pct": 0.01,
+      "date": "2026-10-01"
     },
     {
-      "symbol": "BOSCHLTD",
-      "close": 47100.0,
-      "ma44": 46770.68,
-      "distance_pct": 0.7,
-      "date": "2026-09-30"
-    },
-    {
-      "symbol": "PARADEEP",
-      "close": 154.28,
-      "ma44": 153.18,
-      "distance_pct": 0.72,
-      "date": "2026-09-30"
-    },
-    {
-      "symbol": "TBOTEK",
-      "close": 1685.2,
-      "ma44": 1669.09,
-      "distance_pct": 0.97,
-      "date": "2026-09-30"
+      "symbol": "COHANCE",
+      "close": 451.3,
+      "ma44": 448.66,
+      "distance_pct": 0.59,
+      "date": "2026-10-01"
     }
   ]
 }
