@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-01",
-  "generated_at": "2026-10-01T11:42:43.842541+00:00",
+  "generated_at": "2026-10-02T11:42:46.250951+00:00",
   "universe_count": 500,
   "price_scanned_count": 495,
   "breakout_count": 24,
@@ -19,7 +19,7 @@
       "date": "2026-10-01",
       "breakout_date": "2026-09-25",
       "prior_high": 1485.0,
-      "market_cap_cr": 21835.0,
+      "market_cap_cr": 21852.0,
       "debt_equity": 0.064,
       "profit_2025_cr": 2344.0,
       "profit_2026_cr": 2943.0,
