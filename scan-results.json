@@ -1,24 +1,52 @@
 {
-  "as_of": "2026-10-01",
-  "generated_at": "2026-10-02T11:40:58.768402+00:00",
+  "as_of": "2026-10-05",
+  "generated_at": "2026-10-05T11:43:34.420033+00:00",
   "universe_count": 501,
   "scanned_count": 499,
-  "latest_candle_count": 499,
+  "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "BEML",
-      "close": 1962.3,
-      "ma44": 1962.06,
-      "distance_pct": 0.01,
-      "date": "2026-10-01"
+      "symbol": "PARADEEP",
+      "close": 153.6,
+      "ma44": 153.47,
+      "distance_pct": 0.09,
+      "date": "2026-10-05"
     },
     {
-      "symbol": "COHANCE",
-      "close": 451.3,
-      "ma44": 448.66,
-      "distance_pct": 0.59,
-      "date": "2026-10-01"
+      "symbol": "BALRAMCHIN",
+      "close": 671.5,
+      "ma44": 670.85,
+      "distance_pct": 0.1,
+      "date": "2026-10-05"
+    },
+    {
+      "symbol": "BEML",
+      "close": 1970.4,
+      "ma44": 1967.21,
+      "distance_pct": 0.16,
+      "date": "2026-10-05"
+    },
+    {
+      "symbol": "RRKABEL",
+      "close": 2648.0,
+      "ma44": 2639.73,
+      "distance_pct": 0.31,
+      "date": "2026-10-05"
+    },
+    {
+      "symbol": "AIIL",
+      "close": 551.6,
+      "ma44": 549.03,
+      "distance_pct": 0.47,
+      "date": "2026-10-05"
+    },
+    {
+      "symbol": "COFORGE",
+      "close": 1852.0,
+      "ma44": 1842.8,
+      "distance_pct": 0.5,
+      "date": "2026-10-05"
     }
   ]
 }
