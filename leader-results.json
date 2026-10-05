@@ -1,25 +1,24 @@
 {
-  "as_of": "2026-10-01",
-  "generated_at": "2026-10-02T11:42:46.250951+00:00",
+  "as_of": "2026-10-05",
+  "generated_at": "2026-10-05T11:45:38.307713+00:00",
   "universe_count": 500,
   "price_scanned_count": 495,
-  "breakout_count": 24,
-  "fundamental_checked_count": 19,
+  "breakout_count": 29,
+  "fundamental_checked_count": 25,
   "fundamental_errors": [
     "CASTROLIND: missing Net Profit for Mar 2025",
     "MEESHO: invalid market cap, equity or FY2025 profit",
     "RBLBANK: missing Borrowings for Mar 2026",
-    "STLTECH: invalid market cap, equity or FY2025 profit",
-    "WOCKPHARMA: invalid market cap, equity or FY2025 profit"
+    "STLTECH: invalid market cap, equity or FY2025 profit"
   ],
   "matches": [
     {
       "symbol": "GESHIP",
-      "close": 1530.6,
-      "date": "2026-10-01",
+      "close": 1559.3,
+      "date": "2026-10-05",
       "breakout_date": "2026-09-25",
       "prior_high": 1485.0,
-      "market_cap_cr": 21852.0,
+      "market_cap_cr": 22264.0,
       "debt_equity": 0.064,
       "profit_2025_cr": 2344.0,
       "profit_2026_cr": 2943.0,
@@ -41,6 +40,23 @@
         "valid_until": "2027-03-31"
       },
       "fully_reviewed": true
+    },
+    {
+      "symbol": "AZAD",
+      "close": 2927.2,
+      "date": "2026-10-05",
+      "breakout_date": "2026-09-29",
+      "prior_high": 2899.9,
+      "market_cap_cr": 18916.0,
+      "debt_equity": 0.31,
+      "profit_2025_cr": 87.0,
+      "profit_2026_cr": 134.0,
+      "profit_growth_pct": 54.0,
+      "industry": "Capital Goods",
+      "screener_url": "https://www.screener.in/company/AZAD/consolidated/",
+      "macro": {},
+      "sector_leader": {},
+      "fully_reviewed": false
     }
   ]
 }
