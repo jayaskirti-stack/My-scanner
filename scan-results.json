@@ -1,52 +1,94 @@
 {
-  "as_of": "2026-10-05",
-  "generated_at": "2026-10-05T11:43:34.420033+00:00",
+  "as_of": "2026-10-06",
+  "generated_at": "2026-10-06T11:41:00.816252+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "PARADEEP",
-      "close": 153.6,
-      "ma44": 153.47,
-      "distance_pct": 0.09,
-      "date": "2026-10-05"
+      "symbol": "CLEAN",
+      "close": 823.15,
+      "ma44": 822.05,
+      "distance_pct": 0.13,
+      "date": "2026-10-06"
     },
     {
-      "symbol": "BALRAMCHIN",
-      "close": 671.5,
-      "ma44": 670.85,
-      "distance_pct": 0.1,
-      "date": "2026-10-05"
+      "symbol": "PERSISTENT",
+      "close": 5521.0,
+      "ma44": 5508.27,
+      "distance_pct": 0.23,
+      "date": "2026-10-06"
     },
     {
-      "symbol": "BEML",
-      "close": 1970.4,
-      "ma44": 1967.21,
-      "distance_pct": 0.16,
-      "date": "2026-10-05"
+      "symbol": "TECHNOE",
+      "close": 996.2,
+      "ma44": 993.74,
+      "distance_pct": 0.25,
+      "date": "2026-10-06"
     },
     {
-      "symbol": "RRKABEL",
-      "close": 2648.0,
-      "ma44": 2639.73,
-      "distance_pct": 0.31,
-      "date": "2026-10-05"
+      "symbol": "SOLARINDS",
+      "close": 20071.0,
+      "ma44": 20004.23,
+      "distance_pct": 0.33,
+      "date": "2026-10-06"
     },
     {
-      "symbol": "AIIL",
-      "close": 551.6,
-      "ma44": 549.03,
-      "distance_pct": 0.47,
-      "date": "2026-10-05"
+      "symbol": "GROWW",
+      "close": 193.19,
+      "ma44": 192.33,
+      "distance_pct": 0.45,
+      "date": "2026-10-06"
     },
     {
-      "symbol": "COFORGE",
-      "close": 1852.0,
-      "ma44": 1842.8,
-      "distance_pct": 0.5,
-      "date": "2026-10-05"
+      "symbol": "APLAPOLLO",
+      "close": 2152.0,
+      "ma44": 2142.12,
+      "distance_pct": 0.46,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "close": 3573.4,
+      "ma44": 3554.07,
+      "distance_pct": 0.54,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "SHYAMMETL",
+      "close": 1054.0,
+      "ma44": 1047.9,
+      "distance_pct": 0.58,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "PINELABS",
+      "close": 172.73,
+      "ma44": 171.37,
+      "distance_pct": 0.8,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "TBOTEK",
+      "close": 1693.2,
+      "ma44": 1679.19,
+      "distance_pct": 0.83,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "ASAHIINDIA",
+      "close": 956.95,
+      "ma44": 948.82,
+      "distance_pct": 0.86,
+      "date": "2026-10-06"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "close": 543.95,
+      "ma44": 539.06,
+      "distance_pct": 0.91,
+      "date": "2026-10-06"
     }
   ]
 }
