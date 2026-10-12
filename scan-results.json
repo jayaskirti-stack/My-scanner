@@ -1,45 +1,80 @@
 {
-  "as_of": "2026-10-09",
-  "generated_at": "2026-10-09T11:39:49.301582+00:00",
+  "as_of": "2026-10-12",
+  "generated_at": "2026-10-12T11:45:52.431527+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "CARTRADE",
-      "close": 2951.0,
-      "ma44": 2944.57,
-      "distance_pct": 0.22,
-      "date": "2026-10-09"
+      "symbol": "KAJARIACER",
+      "close": 1224.7,
+      "ma44": 1222.45,
+      "distance_pct": 0.18,
+      "date": "2026-10-12"
     },
     {
-      "symbol": "LALPATHLAB",
-      "close": 1933.6,
-      "ma44": 1925.74,
-      "distance_pct": 0.41,
-      "date": "2026-10-09"
+      "symbol": "APLAPOLLO",
+      "close": 2157.4,
+      "ma44": 2151.88,
+      "distance_pct": 0.26,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "CRAFTSMAN",
+      "close": 10815.0,
+      "ma44": 10785.34,
+      "distance_pct": 0.27,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "AEGISVOPAK",
+      "close": 286.4,
+      "ma44": 285.61,
+      "distance_pct": 0.28,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "FLUOROCHEM",
+      "close": 4604.4,
+      "ma44": 4589.66,
+      "distance_pct": 0.32,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "PAYTM",
+      "close": 1690.0,
+      "ma44": 1680.53,
+      "distance_pct": 0.56,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "INOXINDIA",
+      "close": 2078.7,
+      "ma44": 2066.97,
+      "distance_pct": 0.57,
+      "date": "2026-10-12"
+    },
+    {
+      "symbol": "URBANCO",
+      "close": 163.49,
+      "ma44": 162.31,
+      "distance_pct": 0.73,
+      "date": "2026-10-12"
     },
     {
       "symbol": "PATANJALI",
-      "close": 360.45,
-      "ma44": 358.44,
-      "distance_pct": 0.56,
-      "date": "2026-10-09"
+      "close": 361.35,
+      "ma44": 358.53,
+      "distance_pct": 0.79,
+      "date": "2026-10-12"
     },
     {
-      "symbol": "BHARTIHEXA",
-      "close": 1531.9,
-      "ma44": 1521.6,
-      "distance_pct": 0.68,
-      "date": "2026-10-09"
-    },
-    {
-      "symbol": "RADICO",
-      "close": 4550.0,
-      "ma44": 4513.41,
-      "distance_pct": 0.81,
-      "date": "2026-10-09"
+      "symbol": "NETWEB",
+      "close": 5001.0,
+      "ma44": 4952.19,
+      "distance_pct": 0.99,
+      "date": "2026-10-12"
     }
   ]
 }
