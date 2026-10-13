@@ -1,80 +1,59 @@
 {
-  "as_of": "2026-10-12",
-  "generated_at": "2026-10-12T11:45:52.431527+00:00",
+  "as_of": "2026-10-13",
+  "generated_at": "2026-10-13T11:44:14.488983+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
+      "symbol": "DLF",
+      "close": 664.8,
+      "ma44": 664.76,
+      "distance_pct": 0.01,
+      "date": "2026-10-13"
+    },
+    {
+      "symbol": "SAGILITY",
+      "close": 44.36,
+      "ma44": 44.32,
+      "distance_pct": 0.09,
+      "date": "2026-10-13"
+    },
+    {
+      "symbol": "JSWINFRA",
+      "close": 343.3,
+      "ma44": 342.71,
+      "distance_pct": 0.17,
+      "date": "2026-10-13"
+    },
+    {
       "symbol": "KAJARIACER",
-      "close": 1224.7,
-      "ma44": 1222.45,
-      "distance_pct": 0.18,
-      "date": "2026-10-12"
+      "close": 1226.7,
+      "ma44": 1222.49,
+      "distance_pct": 0.34,
+      "date": "2026-10-13"
     },
     {
-      "symbol": "APLAPOLLO",
-      "close": 2157.4,
-      "ma44": 2151.88,
-      "distance_pct": 0.26,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "CRAFTSMAN",
-      "close": 10815.0,
-      "ma44": 10785.34,
-      "distance_pct": 0.27,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "AEGISVOPAK",
-      "close": 286.4,
-      "ma44": 285.61,
-      "distance_pct": 0.28,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "FLUOROCHEM",
-      "close": 4604.4,
-      "ma44": 4589.66,
-      "distance_pct": 0.32,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "PAYTM",
-      "close": 1690.0,
-      "ma44": 1680.53,
-      "distance_pct": 0.56,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "INOXINDIA",
-      "close": 2078.7,
-      "ma44": 2066.97,
+      "symbol": "GROWW",
+      "close": 193.81,
+      "ma44": 192.71,
       "distance_pct": 0.57,
-      "date": "2026-10-12"
+      "date": "2026-10-13"
     },
     {
-      "symbol": "URBANCO",
-      "close": 163.49,
-      "ma44": 162.31,
-      "distance_pct": 0.73,
-      "date": "2026-10-12"
+      "symbol": "PNB",
+      "close": 116.55,
+      "ma44": 115.79,
+      "distance_pct": 0.66,
+      "date": "2026-10-13"
     },
     {
-      "symbol": "PATANJALI",
-      "close": 361.35,
-      "ma44": 358.53,
-      "distance_pct": 0.79,
-      "date": "2026-10-12"
-    },
-    {
-      "symbol": "NETWEB",
-      "close": 5001.0,
-      "ma44": 4952.19,
-      "distance_pct": 0.99,
-      "date": "2026-10-12"
+      "symbol": "PETRONET",
+      "close": 290.0,
+      "ma44": 287.85,
+      "distance_pct": 0.75,
+      "date": "2026-10-13"
     }
   ]
 }
