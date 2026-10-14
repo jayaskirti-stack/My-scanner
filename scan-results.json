@@ -1,59 +1,73 @@
 {
-  "as_of": "2026-10-13",
-  "generated_at": "2026-10-13T11:44:14.488983+00:00",
+  "as_of": "2026-10-14",
+  "generated_at": "2026-10-14T11:57:36.596140+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
+      "symbol": "BEML",
+      "close": 1993.6,
+      "ma44": 1991.99,
+      "distance_pct": 0.08,
+      "date": "2026-10-14"
+    },
+    {
+      "symbol": "KPRMILL",
+      "close": 1121.2,
+      "ma44": 1118.94,
+      "distance_pct": 0.2,
+      "date": "2026-10-14"
+    },
+    {
+      "symbol": "INDHOTEL",
+      "close": 725.4,
+      "ma44": 723.83,
+      "distance_pct": 0.22,
+      "date": "2026-10-14"
+    },
+    {
+      "symbol": "SOLARINDS",
+      "close": 20170.0,
+      "ma44": 20119.8,
+      "distance_pct": 0.25,
+      "date": "2026-10-14"
+    },
+    {
+      "symbol": "SONACOMS",
+      "close": 807.0,
+      "ma44": 804.76,
+      "distance_pct": 0.28,
+      "date": "2026-10-14"
+    },
+    {
       "symbol": "DLF",
-      "close": 664.8,
-      "ma44": 664.76,
-      "distance_pct": 0.01,
-      "date": "2026-10-13"
+      "close": 666.9,
+      "ma44": 664.91,
+      "distance_pct": 0.3,
+      "date": "2026-10-14"
     },
     {
-      "symbol": "SAGILITY",
-      "close": 44.36,
-      "ma44": 44.32,
-      "distance_pct": 0.09,
-      "date": "2026-10-13"
+      "symbol": "COALINDIA",
+      "close": 417.0,
+      "ma44": 414.33,
+      "distance_pct": 0.64,
+      "date": "2026-10-14"
     },
     {
-      "symbol": "JSWINFRA",
-      "close": 343.3,
-      "ma44": 342.71,
-      "distance_pct": 0.17,
-      "date": "2026-10-13"
+      "symbol": "FLUOROCHEM",
+      "close": 4632.1,
+      "ma44": 4596.09,
+      "distance_pct": 0.78,
+      "date": "2026-10-14"
     },
     {
-      "symbol": "KAJARIACER",
-      "close": 1226.7,
-      "ma44": 1222.49,
-      "distance_pct": 0.34,
-      "date": "2026-10-13"
-    },
-    {
-      "symbol": "GROWW",
-      "close": 193.81,
-      "ma44": 192.71,
-      "distance_pct": 0.57,
-      "date": "2026-10-13"
-    },
-    {
-      "symbol": "PNB",
-      "close": 116.55,
-      "ma44": 115.79,
-      "distance_pct": 0.66,
-      "date": "2026-10-13"
-    },
-    {
-      "symbol": "PETRONET",
-      "close": 290.0,
-      "ma44": 287.85,
-      "distance_pct": 0.75,
-      "date": "2026-10-13"
+      "symbol": "RADICO",
+      "close": 4554.1,
+      "ma44": 4514.66,
+      "distance_pct": 0.87,
+      "date": "2026-10-14"
     }
   ]
 }
