@@ -1,73 +1,38 @@
 {
-  "as_of": "2026-10-14",
-  "generated_at": "2026-10-14T11:57:36.596140+00:00",
+  "as_of": "2026-10-15",
+  "generated_at": "2026-10-15T11:57:01.460178+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "BEML",
-      "close": 1993.6,
-      "ma44": 1991.99,
-      "distance_pct": 0.08,
-      "date": "2026-10-14"
+      "symbol": "AUROPHARMA",
+      "close": 1677.9,
+      "ma44": 1668.97,
+      "distance_pct": 0.54,
+      "date": "2026-10-15"
     },
     {
-      "symbol": "KPRMILL",
-      "close": 1121.2,
-      "ma44": 1118.94,
-      "distance_pct": 0.2,
-      "date": "2026-10-14"
+      "symbol": "PHOENIXLTD",
+      "close": 1917.2,
+      "ma44": 1906.74,
+      "distance_pct": 0.55,
+      "date": "2026-10-15"
     },
     {
-      "symbol": "INDHOTEL",
-      "close": 725.4,
-      "ma44": 723.83,
-      "distance_pct": 0.22,
-      "date": "2026-10-14"
-    },
-    {
-      "symbol": "SOLARINDS",
-      "close": 20170.0,
-      "ma44": 20119.8,
-      "distance_pct": 0.25,
-      "date": "2026-10-14"
-    },
-    {
-      "symbol": "SONACOMS",
-      "close": 807.0,
-      "ma44": 804.76,
-      "distance_pct": 0.28,
-      "date": "2026-10-14"
+      "symbol": "ADANIPORTS",
+      "close": 1743.2,
+      "ma44": 1731.5,
+      "distance_pct": 0.68,
+      "date": "2026-10-15"
     },
     {
       "symbol": "DLF",
-      "close": 666.9,
-      "ma44": 664.91,
-      "distance_pct": 0.3,
-      "date": "2026-10-14"
-    },
-    {
-      "symbol": "COALINDIA",
-      "close": 417.0,
-      "ma44": 414.33,
-      "distance_pct": 0.64,
-      "date": "2026-10-14"
-    },
-    {
-      "symbol": "FLUOROCHEM",
-      "close": 4632.1,
-      "ma44": 4596.09,
-      "distance_pct": 0.78,
-      "date": "2026-10-14"
-    },
-    {
-      "symbol": "RADICO",
-      "close": 4554.1,
-      "ma44": 4514.66,
-      "distance_pct": 0.87,
-      "date": "2026-10-14"
+      "close": 670.5,
+      "ma44": 665.11,
+      "distance_pct": 0.81,
+      "date": "2026-10-15"
     }
   ]
 }
