@@ -1,38 +1,52 @@
 {
-  "as_of": "2026-10-15",
-  "generated_at": "2026-10-15T11:57:01.460178+00:00",
+  "as_of": "2026-10-16",
+  "generated_at": "2026-10-16T11:56:13.965298+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "AUROPHARMA",
-      "close": 1677.9,
-      "ma44": 1668.97,
-      "distance_pct": 0.54,
-      "date": "2026-10-15"
+      "symbol": "ETERNAL",
+      "close": 325.3,
+      "ma44": 325.06,
+      "distance_pct": 0.07,
+      "date": "2026-10-16"
     },
     {
-      "symbol": "PHOENIXLTD",
-      "close": 1917.2,
-      "ma44": 1906.74,
-      "distance_pct": 0.55,
-      "date": "2026-10-15"
+      "symbol": "SANSERA",
+      "close": 4120.7,
+      "ma44": 4109.22,
+      "distance_pct": 0.28,
+      "date": "2026-10-16"
+    },
+    {
+      "symbol": "CUB",
+      "close": 227.38,
+      "ma44": 226.12,
+      "distance_pct": 0.56,
+      "date": "2026-10-16"
+    },
+    {
+      "symbol": "JSL",
+      "close": 736.55,
+      "ma44": 731.51,
+      "distance_pct": 0.69,
+      "date": "2026-10-16"
+    },
+    {
+      "symbol": "CARTRADE",
+      "close": 3011.4,
+      "ma44": 2982.77,
+      "distance_pct": 0.96,
+      "date": "2026-10-16"
     },
     {
       "symbol": "ADANIPORTS",
-      "close": 1743.2,
-      "ma44": 1731.5,
-      "distance_pct": 0.68,
-      "date": "2026-10-15"
-    },
-    {
-      "symbol": "DLF",
-      "close": 670.5,
-      "ma44": 665.11,
-      "distance_pct": 0.81,
-      "date": "2026-10-15"
+      "close": 1750.8,
+      "ma44": 1733.61,
+      "distance_pct": 0.99,
+      "date": "2026-10-16"
     }
   ]
 }
