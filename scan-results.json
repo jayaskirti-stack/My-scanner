@@ -1,38 +1,17 @@
 {
-  "as_of": "2026-10-19",
-  "generated_at": "2026-10-20T11:57:34.977694+00:00",
+  "as_of": "2026-10-21",
+  "generated_at": "2026-10-21T11:58:55.024508+00:00",
   "universe_count": 501,
   "scanned_count": 499,
-  "latest_candle_count": 499,
+  "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "ACMESOLAR",
-      "close": 417.75,
-      "ma44": 415.46,
-      "distance_pct": 0.55,
-      "date": "2026-10-19"
-    },
-    {
-      "symbol": "MRPL",
-      "close": 173.72,
-      "ma44": 172.56,
-      "distance_pct": 0.67,
-      "date": "2026-10-19"
-    },
-    {
-      "symbol": "TATACOMM",
-      "close": 1718.5,
-      "ma44": 1705.2,
-      "distance_pct": 0.78,
-      "date": "2026-10-19"
-    },
-    {
-      "symbol": "SANSERA",
-      "close": 4150.3,
-      "ma44": 4114.35,
-      "distance_pct": 0.87,
-      "date": "2026-10-19"
+      "symbol": "CRISIL",
+      "close": 4586.4,
+      "ma44": 4577.47,
+      "distance_pct": 0.2,
+      "date": "2026-10-21"
     }
   ]
 }
