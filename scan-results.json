@@ -1,17 +1,31 @@
 {
-  "as_of": "2026-10-21",
-  "generated_at": "2026-10-21T11:58:55.024508+00:00",
+  "as_of": "2026-10-22",
+  "generated_at": "2026-10-22T11:58:44.990858+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "CRISIL",
-      "close": 4586.4,
-      "ma44": 4577.47,
-      "distance_pct": 0.2,
-      "date": "2026-10-21"
+      "symbol": "MEESHO",
+      "close": 219.25,
+      "ma44": 218.74,
+      "distance_pct": 0.24,
+      "date": "2026-10-22"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "close": 1750.0,
+      "ma44": 1737.96,
+      "distance_pct": 0.69,
+      "date": "2026-10-22"
+    },
+    {
+      "symbol": "WELSPUNLIV",
+      "close": 213.94,
+      "ma44": 212.25,
+      "distance_pct": 0.8,
+      "date": "2026-10-22"
     }
   ]
 }
