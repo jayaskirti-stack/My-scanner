@@ -1,31 +1,31 @@
 {
-  "as_of": "2026-10-23",
-  "generated_at": "2026-10-23T11:58:19.688983+00:00",
+  "as_of": "2026-10-26",
+  "generated_at": "2026-10-26T13:44:54.705170+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 496,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "IPCALAB",
-      "close": 1953.3,
-      "ma44": 1942.5,
-      "distance_pct": 0.56,
-      "date": "2026-10-23"
+      "symbol": "SANSERA",
+      "close": 4147.7,
+      "ma44": 4120.0,
+      "distance_pct": 0.67,
+      "date": "2026-10-26"
     },
     {
-      "symbol": "JAINREC",
-      "close": 289.2,
-      "ma44": 286.87,
-      "distance_pct": 0.81,
-      "date": "2026-10-23"
+      "symbol": "PETRONET",
+      "close": 291.75,
+      "ma44": 289.73,
+      "distance_pct": 0.7,
+      "date": "2026-10-26"
     },
     {
-      "symbol": "HFCL",
-      "close": 240.07,
-      "ma44": 237.88,
-      "distance_pct": 0.92,
-      "date": "2026-10-23"
+      "symbol": "ADANIPORTS",
+      "close": 1752.5,
+      "ma44": 1739.71,
+      "distance_pct": 0.73,
+      "date": "2026-10-26"
     }
   ]
 }
