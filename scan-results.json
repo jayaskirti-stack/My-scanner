@@ -1,73 +1,31 @@
 {
-  "as_of": "2026-10-27",
-  "generated_at": "2026-10-27T16:46:12.015500+00:00",
+  "as_of": "2026-10-28",
+  "generated_at": "2026-10-28T17:14:49.565815+00:00",
   "universe_count": 501,
   "scanned_count": 498,
   "latest_candle_count": 496,
   "failed_count": 3,
   "matches": [
     {
-      "symbol": "LENSKART",
-      "close": 669.2,
-      "ma44": 668.45,
-      "distance_pct": 0.11,
-      "date": "2026-10-27"
+      "symbol": "LGEINDIA",
+      "close": 1690.6,
+      "ma44": 1690.57,
+      "distance_pct": 0.0,
+      "date": "2026-10-28"
     },
     {
-      "symbol": "BLUESTARCO",
-      "close": 1526.0,
-      "ma44": 1524.2,
-      "distance_pct": 0.12,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "BBOX",
-      "close": 809.15,
-      "ma44": 806.55,
-      "distance_pct": 0.32,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "BEML",
-      "close": 1998.6,
-      "ma44": 1989.9,
-      "distance_pct": 0.44,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "TATACOMM",
-      "close": 1713.5,
-      "ma44": 1705.85,
-      "distance_pct": 0.45,
-      "date": "2026-10-27"
+      "symbol": "LALPATHLAB",
+      "close": 1922.3,
+      "ma44": 1916.6,
+      "distance_pct": 0.3,
+      "date": "2026-10-28"
     },
     {
       "symbol": "WELSPUNLIV",
-      "close": 215.03,
-      "ma44": 213.95,
-      "distance_pct": 0.5,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "GLAND",
-      "close": 2960.3,
-      "ma44": 2940.89,
-      "distance_pct": 0.66,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "PWL",
-      "close": 129.89,
-      "ma44": 129.0,
-      "distance_pct": 0.69,
-      "date": "2026-10-27"
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "close": 1754.5,
-      "ma44": 1740.95,
-      "distance_pct": 0.78,
-      "date": "2026-10-27"
+      "close": 215.51,
+      "ma44": 214.52,
+      "distance_pct": 0.46,
+      "date": "2026-10-28"
     }
   ]
 }
