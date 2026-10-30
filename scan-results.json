@@ -1,38 +1,24 @@
 {
-  "as_of": "2026-10-29",
-  "generated_at": "2026-10-29T17:30:02.845964+00:00",
+  "as_of": "2026-10-30",
+  "generated_at": "2026-10-30T17:05:19.844393+00:00",
   "universe_count": 501,
-  "scanned_count": 498,
-  "latest_candle_count": 496,
-  "failed_count": 3,
+  "scanned_count": 499,
+  "latest_candle_count": 497,
+  "failed_count": 2,
   "matches": [
     {
-      "symbol": "TATACOMM",
-      "close": 1709.4,
-      "ma44": 1705.89,
-      "distance_pct": 0.21,
-      "date": "2026-10-29"
+      "symbol": "PETRONET",
+      "close": 289.5,
+      "ma44": 289.48,
+      "distance_pct": 0.01,
+      "date": "2026-10-30"
     },
     {
-      "symbol": "ELECON",
-      "close": 437.5,
-      "ma44": 435.6,
-      "distance_pct": 0.44,
-      "date": "2026-10-29"
-    },
-    {
-      "symbol": "NUVOCO",
-      "close": 332.1,
-      "ma44": 330.29,
-      "distance_pct": 0.55,
-      "date": "2026-10-29"
-    },
-    {
-      "symbol": "MRPL",
-      "close": 173.24,
-      "ma44": 172.25,
-      "distance_pct": 0.57,
-      "date": "2026-10-29"
+      "symbol": "AUROPHARMA",
+      "close": 1681.4,
+      "ma44": 1668.81,
+      "distance_pct": 0.75,
+      "date": "2026-10-30"
     }
   ]
 }
