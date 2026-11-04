@@ -1,45 +1,9 @@
 {
-  "as_of": "2026-11-02",
-  "generated_at": "2026-11-03T18:32:43.055756+00:00",
+  "as_of": "2026-11-03",
+  "generated_at": "2026-11-04T18:45:06.027120+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
-  "matches": [
-    {
-      "symbol": "TATAPOWER",
-      "close": 355.9,
-      "ma44": 355.61,
-      "distance_pct": 0.08,
-      "date": "2026-11-02"
-    },
-    {
-      "symbol": "ACMESOLAR",
-      "close": 418.75,
-      "ma44": 417.87,
-      "distance_pct": 0.21,
-      "date": "2026-11-02"
-    },
-    {
-      "symbol": "CPPLUS",
-      "close": 3849.3,
-      "ma44": 3840.17,
-      "distance_pct": 0.24,
-      "date": "2026-11-02"
-    },
-    {
-      "symbol": "LLOYDSME",
-      "close": 1825.1,
-      "ma44": 1818.22,
-      "distance_pct": 0.38,
-      "date": "2026-11-02"
-    },
-    {
-      "symbol": "ELECON",
-      "close": 438.25,
-      "ma44": 435.81,
-      "distance_pct": 0.56,
-      "date": "2026-11-02"
-    }
-  ]
+  "matches": []
 }
