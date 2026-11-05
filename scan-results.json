@@ -1,9 +1,52 @@
 {
-  "as_of": "2026-11-03",
-  "generated_at": "2026-11-04T18:45:06.027120+00:00",
+  "as_of": "2026-11-04",
+  "generated_at": "2026-11-05T18:53:25.769382+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
-  "matches": []
+  "matches": [
+    {
+      "symbol": "TORNTPOWER",
+      "close": 1234.4,
+      "ma44": 1233.93,
+      "distance_pct": 0.04,
+      "date": "2026-11-04"
+    },
+    {
+      "symbol": "IKS",
+      "close": 1750.4,
+      "ma44": 1747.53,
+      "distance_pct": 0.16,
+      "date": "2026-11-04"
+    },
+    {
+      "symbol": "VBL",
+      "close": 420.45,
+      "ma44": 419.76,
+      "distance_pct": 0.16,
+      "date": "2026-11-04"
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "close": 421.0,
+      "ma44": 418.74,
+      "distance_pct": 0.54,
+      "date": "2026-11-04"
+    },
+    {
+      "symbol": "ELECON",
+      "close": 438.85,
+      "ma44": 436.49,
+      "distance_pct": 0.54,
+      "date": "2026-11-04"
+    },
+    {
+      "symbol": "CASTROLIND",
+      "close": 194.97,
+      "ma44": 193.6,
+      "distance_pct": 0.71,
+      "date": "2026-11-04"
+    }
+  ]
 }
