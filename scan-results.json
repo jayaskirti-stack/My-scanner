@@ -1,52 +1,31 @@
 {
-  "as_of": "2026-11-04",
-  "generated_at": "2026-11-05T18:53:25.769382+00:00",
+  "as_of": "2026-11-06",
+  "generated_at": "2026-11-06T18:11:04.334589+00:00",
   "universe_count": 501,
   "scanned_count": 499,
-  "latest_candle_count": 499,
+  "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "TORNTPOWER",
-      "close": 1234.4,
-      "ma44": 1233.93,
-      "distance_pct": 0.04,
-      "date": "2026-11-04"
+      "symbol": "JAINREC",
+      "close": 286.5,
+      "ma44": 284.76,
+      "distance_pct": 0.61,
+      "date": "2026-11-06"
     },
     {
-      "symbol": "IKS",
-      "close": 1750.4,
-      "ma44": 1747.53,
-      "distance_pct": 0.16,
-      "date": "2026-11-04"
+      "symbol": "CENTRALBK",
+      "close": 30.63,
+      "ma44": 30.37,
+      "distance_pct": 0.85,
+      "date": "2026-11-06"
     },
     {
-      "symbol": "VBL",
-      "close": 420.45,
-      "ma44": 419.76,
-      "distance_pct": 0.16,
-      "date": "2026-11-04"
-    },
-    {
-      "symbol": "ACMESOLAR",
-      "close": 421.0,
-      "ma44": 418.74,
-      "distance_pct": 0.54,
-      "date": "2026-11-04"
-    },
-    {
-      "symbol": "ELECON",
-      "close": 438.85,
-      "ma44": 436.49,
-      "distance_pct": 0.54,
-      "date": "2026-11-04"
-    },
-    {
-      "symbol": "CASTROLIND",
-      "close": 194.97,
-      "ma44": 193.6,
-      "distance_pct": 0.71,
-      "date": "2026-11-04"
+      "symbol": "WHIRLPOOL",
+      "close": 826.7,
+      "ma44": 818.83,
+      "distance_pct": 0.96,
+      "date": "2026-11-06"
     }
   ]
 }
