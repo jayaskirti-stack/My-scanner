@@ -1,31 +1,31 @@
 {
-  "as_of": "2026-11-06",
-  "generated_at": "2026-11-06T18:11:04.334589+00:00",
+  "as_of": "2026-11-09",
+  "generated_at": "2026-11-09T21:32:24.396206+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 497,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "JAINREC",
-      "close": 286.5,
-      "ma44": 284.76,
-      "distance_pct": 0.61,
-      "date": "2026-11-06"
+      "symbol": "JSWINFRA",
+      "close": 339.25,
+      "ma44": 338.68,
+      "distance_pct": 0.17,
+      "date": "2026-11-09"
     },
     {
-      "symbol": "CENTRALBK",
-      "close": 30.63,
-      "ma44": 30.37,
+      "symbol": "BANDHANBNK",
+      "close": 168.6,
+      "ma44": 167.63,
+      "distance_pct": 0.58,
+      "date": "2026-11-09"
+    },
+    {
+      "symbol": "IPCALAB",
+      "close": 1959.7,
+      "ma44": 1943.16,
       "distance_pct": 0.85,
-      "date": "2026-11-06"
-    },
-    {
-      "symbol": "WHIRLPOOL",
-      "close": 826.7,
-      "ma44": 818.83,
-      "distance_pct": 0.96,
-      "date": "2026-11-06"
+      "date": "2026-11-09"
     }
   ]
 }
