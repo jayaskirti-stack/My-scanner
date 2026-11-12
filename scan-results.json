@@ -1,31 +1,31 @@
 {
-  "as_of": "2026-11-09",
-  "generated_at": "2026-11-11T18:48:54.443135+00:00",
+  "as_of": "2026-11-11",
+  "generated_at": "2026-11-12T19:00:56.089202+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "JSWINFRA",
-      "close": 339.25,
-      "ma44": 338.68,
-      "distance_pct": 0.17,
-      "date": "2026-11-09"
+      "symbol": "JAINREC",
+      "close": 286.25,
+      "ma44": 285.04,
+      "distance_pct": 0.42,
+      "date": "2026-11-11"
     },
     {
-      "symbol": "BANDHANBNK",
-      "close": 168.6,
-      "ma44": 167.63,
-      "distance_pct": 0.58,
-      "date": "2026-11-09"
+      "symbol": "AETHER",
+      "close": 1635.9,
+      "ma44": 1623.36,
+      "distance_pct": 0.77,
+      "date": "2026-11-11"
     },
     {
-      "symbol": "IPCALAB",
-      "close": 1959.7,
-      "ma44": 1943.16,
-      "distance_pct": 0.85,
-      "date": "2026-11-09"
+      "symbol": "DABUR",
+      "close": 382.6,
+      "ma44": 378.97,
+      "distance_pct": 0.96,
+      "date": "2026-11-11"
     }
   ]
 }
