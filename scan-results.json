@@ -1,31 +1,38 @@
 {
-  "as_of": "2026-11-11",
-  "generated_at": "2026-11-12T19:00:56.089202+00:00",
+  "as_of": "2026-11-12",
+  "generated_at": "2026-11-13T18:38:29.892108+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
   "matches": [
     {
+      "symbol": "PRIVISCL",
+      "close": 3431.2,
+      "ma44": 3430.96,
+      "distance_pct": 0.01,
+      "date": "2026-11-12"
+    },
+    {
+      "symbol": "ACMESOLAR",
+      "close": 419.1,
+      "ma44": 419.03,
+      "distance_pct": 0.02,
+      "date": "2026-11-12"
+    },
+    {
       "symbol": "JAINREC",
-      "close": 286.25,
-      "ma44": 285.04,
-      "distance_pct": 0.42,
-      "date": "2026-11-11"
+      "close": 287.6,
+      "ma44": 285.19,
+      "distance_pct": 0.85,
+      "date": "2026-11-12"
     },
     {
-      "symbol": "AETHER",
-      "close": 1635.9,
-      "ma44": 1623.36,
-      "distance_pct": 0.77,
-      "date": "2026-11-11"
-    },
-    {
-      "symbol": "DABUR",
-      "close": 382.6,
-      "ma44": 378.97,
-      "distance_pct": 0.96,
-      "date": "2026-11-11"
+      "symbol": "MPHASIS",
+      "close": 2410.0,
+      "ma44": 2388.79,
+      "distance_pct": 0.89,
+      "date": "2026-11-12"
     }
   ]
 }
