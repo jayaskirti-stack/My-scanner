@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-11-13",
-  "generated_at": "2026-11-16T21:09:02.682452+00:00",
+  "as_of": "2026-11-16",
+  "generated_at": "2026-11-17T19:57:49.247963+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "PWL",
-      "close": 131.58,
-      "ma44": 131.12,
-      "distance_pct": 0.35,
-      "date": "2026-11-13"
+      "symbol": "DABUR",
+      "close": 381.9,
+      "ma44": 379.51,
+      "distance_pct": 0.63,
+      "date": "2026-11-16"
     }
   ]
 }
