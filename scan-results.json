@@ -1,9 +1,31 @@
 {
-  "as_of": "2026-11-17",
-  "generated_at": "2026-11-18T19:28:23.537844+00:00",
+  "as_of": "2026-11-18",
+  "generated_at": "2026-11-19T19:33:43.804119+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
-  "matches": []
+  "matches": [
+    {
+      "symbol": "ALKEM",
+      "close": 5222.5,
+      "ma44": 5206.89,
+      "distance_pct": 0.3,
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "CPPLUS",
+      "close": 3941.6,
+      "ma44": 3927.51,
+      "distance_pct": 0.36,
+      "date": "2026-11-18"
+    },
+    {
+      "symbol": "COHANCE",
+      "close": 456.4,
+      "ma44": 452.61,
+      "distance_pct": 0.84,
+      "date": "2026-11-18"
+    }
+  ]
 }
