@@ -1,31 +1,38 @@
 {
-  "as_of": "2026-11-18",
-  "generated_at": "2026-11-19T19:33:43.804119+00:00",
+  "as_of": "2026-11-19",
+  "generated_at": "2026-11-20T19:11:58.403391+00:00",
   "universe_count": 501,
   "scanned_count": 499,
   "latest_candle_count": 499,
   "failed_count": 2,
   "matches": [
     {
-      "symbol": "ALKEM",
-      "close": 5222.5,
-      "ma44": 5206.89,
-      "distance_pct": 0.3,
-      "date": "2026-11-18"
+      "symbol": "LGEINDIA",
+      "close": 1716.2,
+      "ma44": 1709.37,
+      "distance_pct": 0.4,
+      "date": "2026-11-19"
     },
     {
-      "symbol": "CPPLUS",
-      "close": 3941.6,
-      "ma44": 3927.51,
-      "distance_pct": 0.36,
-      "date": "2026-11-18"
+      "symbol": "PTCIL",
+      "close": 23845.0,
+      "ma44": 23736.7,
+      "distance_pct": 0.46,
+      "date": "2026-11-19"
     },
     {
-      "symbol": "COHANCE",
-      "close": 456.4,
-      "ma44": 452.61,
-      "distance_pct": 0.84,
-      "date": "2026-11-18"
+      "symbol": "WHIRLPOOL",
+      "close": 830.3,
+      "ma44": 825.5,
+      "distance_pct": 0.58,
+      "date": "2026-11-19"
+    },
+    {
+      "symbol": "GRAPHITE",
+      "close": 785.25,
+      "ma44": 780.21,
+      "distance_pct": 0.65,
+      "date": "2026-11-19"
     }
   ]
 }
